@@ -1,5 +1,5 @@
 
-export default WorldGPD=[
+export default [
   {
     countryName: "Arab World",
     countryCode: "ARB",

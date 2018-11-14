@@ -8,48 +8,107 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 
-import { Paper } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
+import CountryCodes from 'data/countrycode';
+import WorldGDP from 'data/worldgdp';
 
-
-const StyledPaper = withStyles({
+import CountryGdp from 'components/CountryGdp';
+import Typography from '@material-ui/core/Typography';
+const styles = theme => ({
   root: {
-    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-    borderRadius: 3,
-    border: 0,
-    color: 'white',
-    height: 48,
-    padding: '0 30px',
-    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+    display: 'flex',
+    padding: '20px',
+    margin: '20px',
+    height: '100%',
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
-})(Paper);
+  gdpDisplay: {
+    margin: theme.spacing.unit * 3,
+    padding: theme.spacing.unit * 3,
+  },
+});
 
+function getAlpha2(alpha3) {
+  const countryCode = CountryCodes.find(c => c.alpha3 === alpha3);
+  if (countryCode) return countryCode.alpha2;
+  return alpha3;
+}
+
+const MIN_YEAR = 1960;
+const MAX_YEAR = 2016;
 /* eslint-disable react/prefer-stateless-function */
 export class HomePage extends React.Component {
+  constructor(props) {
+    super(props);
+    const countryCode = [];
+    CountryCodes.forEach(c => {
+      countryCode.push(c.alpha3);
+    });
+    this.WorldGDP = WorldGDP.filter(
+      g => countryCode.indexOf(g.countryCode) > 0,
+    );
+    this.state = { year: MIN_YEAR };
+  }
 
+  componentDidMount() {
+    this.timerID = setInterval(() => this.tick(), 500);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick = () => {
+    this.setState(prevState => {
+      let nextYear = prevState.year + 1;
+      if (nextYear > MAX_YEAR) nextYear = MIN_YEAR;
+      return {
+        year: nextYear,
+      };
+    });
+  };
 
   render() {
-
+    const { classes } = this.props;
+    const totalCountry = 15;
+    const displayCountries = this.WorldGDP.filter(
+      g => g.year === this.state.year,
+    )
+      .sort((g1, g2) => g2.value - g1.value)
+      .slice(0, totalCountry);
 
     return (
+      <div className={classes.root}>
+        <Typography variant="h1" color="primary">
+          {this.state.year}
+        </Typography>
+        {displayCountries.map((c, index) => {
+          const size = c.value / 1000000000000;
 
-        <div>
-          <StyledPaper>
-            <Button color="primary">Primary</Button>
-            <Button color="secondary">Secondary</Button>
-          </StyledPaper>
-        </div>
-
+          return (
+            <CountryGdp
+              className={classes.gdpDisplay}
+              rank={index + 1}
+              countryCode={getAlpha2(c.countryCode)}
+              countryName={c.countryCode}
+              size={size}
+              containerStyle={{
+                position: 'absolute',
+                top: `${(20 - size) * 40}px`,
+                left: `${index * 6}vw`,
+              }}
+              gdpNumber={Math.round(c.value / 1000000000)}
+            />
+          );
+        })}
+      </div>
     );
   }
 }
 
 HomePage.propTypes = {
-  loading: PropTypes.bool,
-
+  classes: PropTypes.object.isRequired,
 };
 
-
-
-
-export default HomePage;
+export default withStyles(styles)(HomePage);

@@ -12,24 +12,21 @@ import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 import { withLoadable } from 'components/LoadingIndicator';
 
-
 const NotFoundPage = withLoadable(() =>
   import('containers/NotFoundPage/index'),
 );
 const HomePage = withLoadable(() => import('containers/HomePage/index'));
 
-
-
-
 const AppWrapper = styled.div`
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   min-height: 100%;
   padding: 0 16px;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100vh;
+  height: 100vh;
 `;
-
 
 export default function App() {
   return (
@@ -45,8 +42,6 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
-
-
     </AppWrapper>
   );
 }

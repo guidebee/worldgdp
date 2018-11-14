@@ -1,842 +1,842 @@
-export default Countries =[
+export default   [
   {
-    countryName: "Afghanistan",
-    countryCode: "AFG"
+    countryName: 'Afghanistan',
+    countryCode: 'AFG',
   },
   {
-    countryName: "Albania",
-    countryCode: "ALB"
+    countryName: 'Albania',
+    countryCode: 'ALB',
   },
   {
-    countryName: "Algeria",
-    countryCode: "DZA"
+    countryName: 'Algeria',
+    countryCode: 'DZA',
   },
   {
-    countryName: "American Samoa",
-    countryCode: "ASM"
+    countryName: 'American Samoa',
+    countryCode: 'ASM',
   },
   {
-    countryName: "Andorra",
-    countryCode: "AND"
+    countryName: 'Andorra',
+    countryCode: 'AND',
   },
   {
-    countryName: "Angola",
-    countryCode: "AGO"
+    countryName: 'Angola',
+    countryCode: 'AGO',
   },
   {
-    countryName: "Antigua and Barbuda",
-    countryCode: "ATG"
+    countryName: 'Antigua and Barbuda',
+    countryCode: 'ATG',
   },
   {
-    countryName: "Argentina",
-    countryCode: "ARG"
+    countryName: 'Argentina',
+    countryCode: 'ARG',
   },
   {
-    countryName: "Armenia",
-    countryCode: "ARM"
+    countryName: 'Armenia',
+    countryCode: 'ARM',
   },
   {
-    countryName: "Aruba",
-    countryCode: "ABW"
+    countryName: 'Aruba',
+    countryCode: 'ABW',
   },
   {
-    countryName: "Australia",
-    countryCode: "AUS"
+    countryName: 'Australia',
+    countryCode: 'AUS',
   },
   {
-    countryName: "Austria",
-    countryCode: "AUT"
+    countryName: 'Austria',
+    countryCode: 'AUT',
   },
   {
-    countryName: "Azerbaijan",
-    countryCode: "AZE"
+    countryName: 'Azerbaijan',
+    countryCode: 'AZE',
   },
   {
-    countryName: "Bahamas, The",
-    countryCode: "BHS"
+    countryName: 'Bahamas, The',
+    countryCode: 'BHS',
   },
   {
-    countryName: "Bahrain",
-    countryCode: "BHR"
+    countryName: 'Bahrain',
+    countryCode: 'BHR',
   },
   {
-    countryName: "Bangladesh",
-    countryCode: "BGD"
+    countryName: 'Bangladesh',
+    countryCode: 'BGD',
   },
   {
-    countryName: "Barbados",
-    countryCode: "BRB"
+    countryName: 'Barbados',
+    countryCode: 'BRB',
   },
   {
-    countryName: "Belarus",
-    countryCode: "BLR"
+    countryName: 'Belarus',
+    countryCode: 'BLR',
   },
   {
-    countryName: "Belgium",
-    countryCode: "BEL"
+    countryName: 'Belgium',
+    countryCode: 'BEL',
   },
   {
-    countryName: "Belize",
-    countryCode: "BLZ"
+    countryName: 'Belize',
+    countryCode: 'BLZ',
   },
   {
-    countryName: "Benin",
-    countryCode: "BEN"
+    countryName: 'Benin',
+    countryCode: 'BEN',
   },
   {
-    countryName: "Bermuda",
-    countryCode: "BMU"
+    countryName: 'Bermuda',
+    countryCode: 'BMU',
   },
   {
-    countryName: "Bhutan",
-    countryCode: "BTN"
+    countryName: 'Bhutan',
+    countryCode: 'BTN',
   },
   {
-    countryName: "Bolivia",
-    countryCode: "BOL"
+    countryName: 'Bolivia',
+    countryCode: 'BOL',
   },
   {
-    countryName: "Bosnia and Herzegovina",
-    countryCode: "BIH"
+    countryName: 'Bosnia and Herzegovina',
+    countryCode: 'BIH',
   },
   {
-    countryName: "Botswana",
-    countryCode: "BWA"
+    countryName: 'Botswana',
+    countryCode: 'BWA',
   },
   {
-    countryName: "Brazil",
-    countryCode: "BRA"
+    countryName: 'Brazil',
+    countryCode: 'BRA',
   },
   {
-    countryName: "Brunei Darussalam",
-    countryCode: "BRN"
+    countryName: 'Brunei Darussalam',
+    countryCode: 'BRN',
   },
   {
-    countryName: "Bulgaria",
-    countryCode: "BGR"
+    countryName: 'Bulgaria',
+    countryCode: 'BGR',
   },
   {
-    countryName: "Burkina Faso",
-    countryCode: "BFA"
+    countryName: 'Burkina Faso',
+    countryCode: 'BFA',
   },
   {
-    countryName: "Burundi",
-    countryCode: "BDI"
+    countryName: 'Burundi',
+    countryCode: 'BDI',
   },
   {
-    countryName: "Cabo Verde",
-    countryCode: "CPV"
+    countryName: 'Cabo Verde',
+    countryCode: 'CPV',
   },
   {
-    countryName: "Cambodia",
-    countryCode: "KHM"
+    countryName: 'Cambodia',
+    countryCode: 'KHM',
   },
   {
-    countryName: "Cameroon",
-    countryCode: "CMR"
+    countryName: 'Cameroon',
+    countryCode: 'CMR',
   },
   {
-    countryName: "Canada",
-    countryCode: "CAN"
+    countryName: 'Canada',
+    countryCode: 'CAN',
   },
   {
-    countryName: "Cayman Islands",
-    countryCode: "CYM"
+    countryName: 'Cayman Islands',
+    countryCode: 'CYM',
   },
   {
-    countryName: "Central African Republic",
-    countryCode: "CAF"
+    countryName: 'Central African Republic',
+    countryCode: 'CAF',
   },
   {
-    countryName: "Chad",
-    countryCode: "TCD"
+    countryName: 'Chad',
+    countryCode: 'TCD',
   },
   {
-    countryName: "Channel Islands",
-    countryCode: "CHI"
+    countryName: 'Channel Islands',
+    countryCode: 'CHI',
   },
   {
-    countryName: "Chile",
-    countryCode: "CHL"
+    countryName: 'Chile',
+    countryCode: 'CHL',
   },
   {
-    countryName: "China",
-    countryCode: "CHN"
+    countryName: 'China',
+    countryCode: 'CHN',
   },
   {
-    countryName: "Colombia",
-    countryCode: "COL"
+    countryName: 'Colombia',
+    countryCode: 'COL',
   },
   {
-    countryName: "Comoros",
-    countryCode: "COM"
+    countryName: 'Comoros',
+    countryCode: 'COM',
   },
   {
-    countryName: "Congo, Dem. Rep.",
-    countryCode: "COD"
+    countryName: 'Congo, Dem. Rep.',
+    countryCode: 'COD',
   },
   {
-    countryName: "Congo, Rep.",
-    countryCode: "COG"
+    countryName: 'Congo, Rep.',
+    countryCode: 'COG',
   },
   {
-    countryName: "Costa Rica",
-    countryCode: "CRI"
+    countryName: 'Costa Rica',
+    countryCode: 'CRI',
   },
   {
     countryName: "Cote d'Ivoire",
-    countryCode: "CIV"
+    countryCode: 'CIV',
   },
   {
-    countryName: "Croatia",
-    countryCode: "HRV"
+    countryName: 'Croatia',
+    countryCode: 'HRV',
   },
   {
-    countryName: "Cuba",
-    countryCode: "CUB"
+    countryName: 'Cuba',
+    countryCode: 'CUB',
   },
   {
-    countryName: "Cyprus",
-    countryCode: "CYP"
+    countryName: 'Cyprus',
+    countryCode: 'CYP',
   },
   {
-    countryName: "Czech Republic",
-    countryCode: "CZE"
+    countryName: 'Czech Republic',
+    countryCode: 'CZE',
   },
   {
-    countryName: "Denmark",
-    countryCode: "DNK"
+    countryName: 'Denmark',
+    countryCode: 'DNK',
   },
   {
-    countryName: "Djibouti",
-    countryCode: "DJI"
+    countryName: 'Djibouti',
+    countryCode: 'DJI',
   },
   {
-    countryName: "Dominica",
-    countryCode: "DMA"
+    countryName: 'Dominica',
+    countryCode: 'DMA',
   },
   {
-    countryName: "Dominican Republic",
-    countryCode: "DOM"
+    countryName: 'Dominican Republic',
+    countryCode: 'DOM',
   },
   {
-    countryName: "Ecuador",
-    countryCode: "ECU"
+    countryName: 'Ecuador',
+    countryCode: 'ECU',
   },
   {
-    countryName: "Egypt, Arab Rep.",
-    countryCode: "EGY"
+    countryName: 'Egypt, Arab Rep.',
+    countryCode: 'EGY',
   },
   {
-    countryName: "El Salvador",
-    countryCode: "SLV"
+    countryName: 'El Salvador',
+    countryCode: 'SLV',
   },
   {
-    countryName: "Equatorial Guinea",
-    countryCode: "GNQ"
+    countryName: 'Equatorial Guinea',
+    countryCode: 'GNQ',
   },
   {
-    countryName: "Eritrea",
-    countryCode: "ERI"
+    countryName: 'Eritrea',
+    countryCode: 'ERI',
   },
   {
-    countryName: "Estonia",
-    countryCode: "EST"
+    countryName: 'Estonia',
+    countryCode: 'EST',
   },
   {
-    countryName: "Ethiopia",
-    countryCode: "ETH"
+    countryName: 'Ethiopia',
+    countryCode: 'ETH',
   },
   {
-    countryName: "Faroe Islands",
-    countryCode: "FRO"
+    countryName: 'Faroe Islands',
+    countryCode: 'FRO',
   },
   {
-    countryName: "Fiji",
-    countryCode: "FJI"
+    countryName: 'Fiji',
+    countryCode: 'FJI',
   },
   {
-    countryName: "Finland",
-    countryCode: "FIN"
+    countryName: 'Finland',
+    countryCode: 'FIN',
   },
   {
-    countryName: "France",
-    countryCode: "FRA"
+    countryName: 'France',
+    countryCode: 'FRA',
   },
   {
-    countryName: "French Polynesia",
-    countryCode: "PYF"
+    countryName: 'French Polynesia',
+    countryCode: 'PYF',
   },
   {
-    countryName: "Gabon",
-    countryCode: "GAB"
+    countryName: 'Gabon',
+    countryCode: 'GAB',
   },
   {
-    countryName: "Gambia, The",
-    countryCode: "GMB"
+    countryName: 'Gambia, The',
+    countryCode: 'GMB',
   },
   {
-    countryName: "Georgia",
-    countryCode: "GEO"
+    countryName: 'Georgia',
+    countryCode: 'GEO',
   },
   {
-    countryName: "Germany",
-    countryCode: "DEU"
+    countryName: 'Germany',
+    countryCode: 'DEU',
   },
   {
-    countryName: "Ghana",
-    countryCode: "GHA"
+    countryName: 'Ghana',
+    countryCode: 'GHA',
   },
   {
-    countryName: "Greece",
-    countryCode: "GRC"
+    countryName: 'Greece',
+    countryCode: 'GRC',
   },
   {
-    countryName: "Greenland",
-    countryCode: "GRL"
+    countryName: 'Greenland',
+    countryCode: 'GRL',
   },
   {
-    countryName: "Grenada",
-    countryCode: "GRD"
+    countryName: 'Grenada',
+    countryCode: 'GRD',
   },
   {
-    countryName: "Guam",
-    countryCode: "GUM"
+    countryName: 'Guam',
+    countryCode: 'GUM',
   },
   {
-    countryName: "Guatemala",
-    countryCode: "GTM"
+    countryName: 'Guatemala',
+    countryCode: 'GTM',
   },
   {
-    countryName: "Guinea",
-    countryCode: "GIN"
+    countryName: 'Guinea',
+    countryCode: 'GIN',
   },
   {
-    countryName: "Guinea-Bissau",
-    countryCode: "GNB"
+    countryName: 'Guinea-Bissau',
+    countryCode: 'GNB',
   },
   {
-    countryName: "Guyana",
-    countryCode: "GUY"
+    countryName: 'Guyana',
+    countryCode: 'GUY',
   },
   {
-    countryName: "Haiti",
-    countryCode: "HTI"
+    countryName: 'Haiti',
+    countryCode: 'HTI',
   },
   {
-    countryName: "Honduras",
-    countryCode: "HND"
+    countryName: 'Honduras',
+    countryCode: 'HND',
   },
   {
-    countryName: "Hong Kong SAR, China",
-    countryCode: "HKG"
+    countryName: 'Hong Kong SAR, China',
+    countryCode: 'HKG',
   },
   {
-    countryName: "Hungary",
-    countryCode: "HUN"
+    countryName: 'Hungary',
+    countryCode: 'HUN',
   },
   {
-    countryName: "Iceland",
-    countryCode: "ISL"
+    countryName: 'Iceland',
+    countryCode: 'ISL',
   },
   {
-    countryName: "India",
-    countryCode: "IND"
+    countryName: 'India',
+    countryCode: 'IND',
   },
   {
-    countryName: "Indonesia",
-    countryCode: "IDN"
+    countryName: 'Indonesia',
+    countryCode: 'IDN',
   },
   {
-    countryName: "Iran, Islamic Rep.",
-    countryCode: "IRN"
+    countryName: 'Iran, Islamic Rep.',
+    countryCode: 'IRN',
   },
   {
-    countryName: "Iraq",
-    countryCode: "IRQ"
+    countryName: 'Iraq',
+    countryCode: 'IRQ',
   },
   {
-    countryName: "Ireland",
-    countryCode: "IRL"
+    countryName: 'Ireland',
+    countryCode: 'IRL',
   },
   {
-    countryName: "Isle of Man",
-    countryCode: "IMN"
+    countryName: 'Isle of Man',
+    countryCode: 'IMN',
   },
   {
-    countryName: "Israel",
-    countryCode: "ISR"
+    countryName: 'Israel',
+    countryCode: 'ISR',
   },
   {
-    countryName: "Italy",
-    countryCode: "ITA"
+    countryName: 'Italy',
+    countryCode: 'ITA',
   },
   {
-    countryName: "Jamaica",
-    countryCode: "JAM"
+    countryName: 'Jamaica',
+    countryCode: 'JAM',
   },
   {
-    countryName: "Japan",
-    countryCode: "JPN"
+    countryName: 'Japan',
+    countryCode: 'JPN',
   },
   {
-    countryName: "Jordan",
-    countryCode: "JOR"
+    countryName: 'Jordan',
+    countryCode: 'JOR',
   },
   {
-    countryName: "Kazakhstan",
-    countryCode: "KAZ"
+    countryName: 'Kazakhstan',
+    countryCode: 'KAZ',
   },
   {
-    countryName: "Kenya",
-    countryCode: "KEN"
+    countryName: 'Kenya',
+    countryCode: 'KEN',
   },
   {
-    countryName: "Kiribati",
-    countryCode: "KIR"
+    countryName: 'Kiribati',
+    countryCode: 'KIR',
   },
   {
-    countryName: "Korea, Rep.",
-    countryCode: "KOR"
+    countryName: 'Korea, Rep.',
+    countryCode: 'KOR',
   },
   {
-    countryName: "Kosovo",
-    countryCode: "XKX"
+    countryName: 'Kosovo',
+    countryCode: 'XKX',
   },
   {
-    countryName: "Kuwait",
-    countryCode: "KWT"
+    countryName: 'Kuwait',
+    countryCode: 'KWT',
   },
   {
-    countryName: "Kyrgyz Republic",
-    countryCode: "KGZ"
+    countryName: 'Kyrgyz Republic',
+    countryCode: 'KGZ',
   },
   {
-    countryName: "Lao PDR",
-    countryCode: "LAO"
+    countryName: 'Lao PDR',
+    countryCode: 'LAO',
   },
   {
-    countryName: "Latvia",
-    countryCode: "LVA"
+    countryName: 'Latvia',
+    countryCode: 'LVA',
   },
   {
-    countryName: "Lebanon",
-    countryCode: "LBN"
+    countryName: 'Lebanon',
+    countryCode: 'LBN',
   },
   {
-    countryName: "Lesotho",
-    countryCode: "LSO"
+    countryName: 'Lesotho',
+    countryCode: 'LSO',
   },
   {
-    countryName: "Liberia",
-    countryCode: "LBR"
+    countryName: 'Liberia',
+    countryCode: 'LBR',
   },
   {
-    countryName: "Libya",
-    countryCode: "LBY"
+    countryName: 'Libya',
+    countryCode: 'LBY',
   },
   {
-    countryName: "Liechtenstein",
-    countryCode: "LIE"
+    countryName: 'Liechtenstein',
+    countryCode: 'LIE',
   },
   {
-    countryName: "Lithuania",
-    countryCode: "LTU"
+    countryName: 'Lithuania',
+    countryCode: 'LTU',
   },
   {
-    countryName: "Luxembourg",
-    countryCode: "LUX"
+    countryName: 'Luxembourg',
+    countryCode: 'LUX',
   },
   {
-    countryName: "Macao SAR, China",
-    countryCode: "MAC"
+    countryName: 'Macao SAR, China',
+    countryCode: 'MAC',
   },
   {
-    countryName: "Macedonia, FYR",
-    countryCode: "MKD"
+    countryName: 'Macedonia, FYR',
+    countryCode: 'MKD',
   },
   {
-    countryName: "Madagascar",
-    countryCode: "MDG"
+    countryName: 'Madagascar',
+    countryCode: 'MDG',
   },
   {
-    countryName: "Malawi",
-    countryCode: "MWI"
+    countryName: 'Malawi',
+    countryCode: 'MWI',
   },
   {
-    countryName: "Malaysia",
-    countryCode: "MYS"
+    countryName: 'Malaysia',
+    countryCode: 'MYS',
   },
   {
-    countryName: "Maldives",
-    countryCode: "MDV"
+    countryName: 'Maldives',
+    countryCode: 'MDV',
   },
   {
-    countryName: "Mali",
-    countryCode: "MLI"
+    countryName: 'Mali',
+    countryCode: 'MLI',
   },
   {
-    countryName: "Malta",
-    countryCode: "MLT"
+    countryName: 'Malta',
+    countryCode: 'MLT',
   },
   {
-    countryName: "Marshall Islands",
-    countryCode: "MHL"
+    countryName: 'Marshall Islands',
+    countryCode: 'MHL',
   },
   {
-    countryName: "Mauritania",
-    countryCode: "MRT"
+    countryName: 'Mauritania',
+    countryCode: 'MRT',
   },
   {
-    countryName: "Mauritius",
-    countryCode: "MUS"
+    countryName: 'Mauritius',
+    countryCode: 'MUS',
   },
   {
-    countryName: "Mexico",
-    countryCode: "MEX"
+    countryName: 'Mexico',
+    countryCode: 'MEX',
   },
   {
-    countryName: "Micronesia, Fed. Sts.",
-    countryCode: "FSM"
+    countryName: 'Micronesia, Fed. Sts.',
+    countryCode: 'FSM',
   },
   {
-    countryName: "Moldova",
-    countryCode: "MDA"
+    countryName: 'Moldova',
+    countryCode: 'MDA',
   },
   {
-    countryName: "Monaco",
-    countryCode: "MCO"
+    countryName: 'Monaco',
+    countryCode: 'MCO',
   },
   {
-    countryName: "Mongolia",
-    countryCode: "MNG"
+    countryName: 'Mongolia',
+    countryCode: 'MNG',
   },
   {
-    countryName: "Montenegro",
-    countryCode: "MNE"
+    countryName: 'Montenegro',
+    countryCode: 'MNE',
   },
   {
-    countryName: "Morocco",
-    countryCode: "MAR"
+    countryName: 'Morocco',
+    countryCode: 'MAR',
   },
   {
-    countryName: "Mozambique",
-    countryCode: "MOZ"
+    countryName: 'Mozambique',
+    countryCode: 'MOZ',
   },
   {
-    countryName: "Myanmar",
-    countryCode: "MMR"
+    countryName: 'Myanmar',
+    countryCode: 'MMR',
   },
   {
-    countryName: "Namibia",
-    countryCode: "NAM"
+    countryName: 'Namibia',
+    countryCode: 'NAM',
   },
   {
-    countryName: "Nauru",
-    countryCode: "NRU"
+    countryName: 'Nauru',
+    countryCode: 'NRU',
   },
   {
-    countryName: "Nepal",
-    countryCode: "NPL"
+    countryName: 'Nepal',
+    countryCode: 'NPL',
   },
   {
-    countryName: "Netherlands",
-    countryCode: "NLD"
+    countryName: 'Netherlands',
+    countryCode: 'NLD',
   },
   {
-    countryName: "New Caledonia",
-    countryCode: "NCL"
+    countryName: 'New Caledonia',
+    countryCode: 'NCL',
   },
   {
-    countryName: "New Zealand",
-    countryCode: "NZL"
+    countryName: 'New Zealand',
+    countryCode: 'NZL',
   },
   {
-    countryName: "Nicaragua",
-    countryCode: "NIC"
+    countryName: 'Nicaragua',
+    countryCode: 'NIC',
   },
   {
-    countryName: "Niger",
-    countryCode: "NER"
+    countryName: 'Niger',
+    countryCode: 'NER',
   },
   {
-    countryName: "Nigeria",
-    countryCode: "NGA"
+    countryName: 'Nigeria',
+    countryCode: 'NGA',
   },
   {
-    countryName: "Northern Mariana Islands",
-    countryCode: "MNP"
+    countryName: 'Northern Mariana Islands',
+    countryCode: 'MNP',
   },
   {
-    countryName: "Norway",
-    countryCode: "NOR"
+    countryName: 'Norway',
+    countryCode: 'NOR',
   },
   {
-    countryName: "Oman",
-    countryCode: "OMN"
+    countryName: 'Oman',
+    countryCode: 'OMN',
   },
   {
-    countryName: "Pakistan",
-    countryCode: "PAK"
+    countryName: 'Pakistan',
+    countryCode: 'PAK',
   },
   {
-    countryName: "Palau",
-    countryCode: "PLW"
+    countryName: 'Palau',
+    countryCode: 'PLW',
   },
   {
-    countryName: "Panama",
-    countryCode: "PAN"
+    countryName: 'Panama',
+    countryCode: 'PAN',
   },
   {
-    countryName: "Papua New Guinea",
-    countryCode: "PNG"
+    countryName: 'Papua New Guinea',
+    countryCode: 'PNG',
   },
   {
-    countryName: "Paraguay",
-    countryCode: "PRY"
+    countryName: 'Paraguay',
+    countryCode: 'PRY',
   },
   {
-    countryName: "Peru",
-    countryCode: "PER"
+    countryName: 'Peru',
+    countryCode: 'PER',
   },
   {
-    countryName: "Philippines",
-    countryCode: "PHL"
+    countryName: 'Philippines',
+    countryCode: 'PHL',
   },
   {
-    countryName: "Poland",
-    countryCode: "POL"
+    countryName: 'Poland',
+    countryCode: 'POL',
   },
   {
-    countryName: "Portugal",
-    countryCode: "PRT"
+    countryName: 'Portugal',
+    countryCode: 'PRT',
   },
   {
-    countryName: "Puerto Rico",
-    countryCode: "PRI"
+    countryName: 'Puerto Rico',
+    countryCode: 'PRI',
   },
   {
-    countryName: "Qatar",
-    countryCode: "QAT"
+    countryName: 'Qatar',
+    countryCode: 'QAT',
   },
   {
-    countryName: "Romania",
-    countryCode: "ROU"
+    countryName: 'Romania',
+    countryCode: 'ROU',
   },
   {
-    countryName: "Russian Federation",
-    countryCode: "RUS"
+    countryName: 'Russian Federation',
+    countryCode: 'RUS',
   },
   {
-    countryName: "Rwanda",
-    countryCode: "RWA"
+    countryName: 'Rwanda',
+    countryCode: 'RWA',
   },
   {
-    countryName: "Samoa",
-    countryCode: "WSM"
+    countryName: 'Samoa',
+    countryCode: 'WSM',
   },
   {
-    countryName: "San Marino",
-    countryCode: "SMR"
+    countryName: 'San Marino',
+    countryCode: 'SMR',
   },
   {
-    countryName: "Sao Tome and Principe",
-    countryCode: "STP"
+    countryName: 'Sao Tome and Principe',
+    countryCode: 'STP',
   },
   {
-    countryName: "Saudi Arabia",
-    countryCode: "SAU"
+    countryName: 'Saudi Arabia',
+    countryCode: 'SAU',
   },
   {
-    countryName: "Senegal",
-    countryCode: "SEN"
+    countryName: 'Senegal',
+    countryCode: 'SEN',
   },
   {
-    countryName: "Serbia",
-    countryCode: "SRB"
+    countryName: 'Serbia',
+    countryCode: 'SRB',
   },
   {
-    countryName: "Seychelles",
-    countryCode: "SYC"
+    countryName: 'Seychelles',
+    countryCode: 'SYC',
   },
   {
-    countryName: "Sierra Leone",
-    countryCode: "SLE"
+    countryName: 'Sierra Leone',
+    countryCode: 'SLE',
   },
   {
-    countryName: "Singapore",
-    countryCode: "SGP"
+    countryName: 'Singapore',
+    countryCode: 'SGP',
   },
   {
-    countryName: "Slovak Republic",
-    countryCode: "SVK"
+    countryName: 'Slovak Republic',
+    countryCode: 'SVK',
   },
   {
-    countryName: "Slovenia",
-    countryCode: "SVN"
+    countryName: 'Slovenia',
+    countryCode: 'SVN',
   },
   {
-    countryName: "Solomon Islands",
-    countryCode: "SLB"
+    countryName: 'Solomon Islands',
+    countryCode: 'SLB',
   },
   {
-    countryName: "Somalia",
-    countryCode: "SOM"
+    countryName: 'Somalia',
+    countryCode: 'SOM',
   },
   {
-    countryName: "South Africa",
-    countryCode: "ZAF"
+    countryName: 'South Africa',
+    countryCode: 'ZAF',
   },
   {
-    countryName: "South Sudan",
-    countryCode: "SSD"
+    countryName: 'South Sudan',
+    countryCode: 'SSD',
   },
   {
-    countryName: "Spain",
-    countryCode: "ESP"
+    countryName: 'Spain',
+    countryCode: 'ESP',
   },
   {
-    countryName: "Sri Lanka",
-    countryCode: "LKA"
+    countryName: 'Sri Lanka',
+    countryCode: 'LKA',
   },
   {
-    countryName: "St. Kitts and Nevis",
-    countryCode: "KNA"
+    countryName: 'St. Kitts and Nevis',
+    countryCode: 'KNA',
   },
   {
-    countryName: "St. Lucia",
-    countryCode: "LCA"
+    countryName: 'St. Lucia',
+    countryCode: 'LCA',
   },
   {
-    countryName: "St. Vincent and the Grenadines",
-    countryCode: "VCT"
+    countryName: 'St. Vincent and the Grenadines',
+    countryCode: 'VCT',
   },
   {
-    countryName: "Sudan",
-    countryCode: "SDN"
+    countryName: 'Sudan',
+    countryCode: 'SDN',
   },
   {
-    countryName: "Suriname",
-    countryCode: "SUR"
+    countryName: 'Suriname',
+    countryCode: 'SUR',
   },
   {
-    countryName: "Swaziland",
-    countryCode: "SWZ"
+    countryName: 'Swaziland',
+    countryCode: 'SWZ',
   },
   {
-    countryName: "Sweden",
-    countryCode: "SWE"
+    countryName: 'Sweden',
+    countryCode: 'SWE',
   },
   {
-    countryName: "Switzerland",
-    countryCode: "CHE"
+    countryName: 'Switzerland',
+    countryCode: 'CHE',
   },
   {
-    countryName: "Syrian Arab Republic",
-    countryCode: "SYR"
+    countryName: 'Syrian Arab Republic',
+    countryCode: 'SYR',
   },
   {
-    countryName: "Tajikistan",
-    countryCode: "TJK"
+    countryName: 'Tajikistan',
+    countryCode: 'TJK',
   },
   {
-    countryName: "Tanzania",
-    countryCode: "TZA"
+    countryName: 'Tanzania',
+    countryCode: 'TZA',
   },
   {
-    countryName: "Thailand",
-    countryCode: "THA"
+    countryName: 'Thailand',
+    countryCode: 'THA',
   },
   {
-    countryName: "Timor-Leste",
-    countryCode: "TLS"
+    countryName: 'Timor-Leste',
+    countryCode: 'TLS',
   },
   {
-    countryName: "Togo",
-    countryCode: "TGO"
+    countryName: 'Togo',
+    countryCode: 'TGO',
   },
   {
-    countryName: "Tonga",
-    countryCode: "TON"
+    countryName: 'Tonga',
+    countryCode: 'TON',
   },
   {
-    countryName: "Trinidad and Tobago",
-    countryCode: "TTO"
+    countryName: 'Trinidad and Tobago',
+    countryCode: 'TTO',
   },
   {
-    countryName: "Tunisia",
-    countryCode: "TUN"
+    countryName: 'Tunisia',
+    countryCode: 'TUN',
   },
   {
-    countryName: "Turkey",
-    countryCode: "TUR"
+    countryName: 'Turkey',
+    countryCode: 'TUR',
   },
   {
-    countryName: "Turkmenistan",
-    countryCode: "TKM"
+    countryName: 'Turkmenistan',
+    countryCode: 'TKM',
   },
   {
-    countryName: "Tuvalu",
-    countryCode: "TUV"
+    countryName: 'Tuvalu',
+    countryCode: 'TUV',
   },
   {
-    countryName: "Uganda",
-    countryCode: "UGA"
+    countryName: 'Uganda',
+    countryCode: 'UGA',
   },
   {
-    countryName: "Ukraine",
-    countryCode: "UKR"
+    countryName: 'Ukraine',
+    countryCode: 'UKR',
   },
   {
-    countryName: "United Arab Emirates",
-    countryCode: "ARE"
+    countryName: 'United Arab Emirates',
+    countryCode: 'ARE',
   },
   {
-    countryName: "United Kingdom",
-    countryCode: "GBR"
+    countryName: 'United Kingdom',
+    countryCode: 'GBR',
   },
   {
-    countryName: "United States",
-    countryCode: "USA"
+    countryName: 'United States',
+    countryCode: 'USA',
   },
   {
-    countryName: "Uruguay",
-    countryCode: "URY"
+    countryName: 'Uruguay',
+    countryCode: 'URY',
   },
   {
-    countryName: "Uzbekistan",
-    countryCode: "UZB"
+    countryName: 'Uzbekistan',
+    countryCode: 'UZB',
   },
   {
-    countryName: "Vanuatu",
-    countryCode: "VUT"
+    countryName: 'Vanuatu',
+    countryCode: 'VUT',
   },
   {
-    countryName: "Venezuela, RB",
-    countryCode: "VEN"
+    countryName: 'Venezuela, RB',
+    countryCode: 'VEN',
   },
   {
-    countryName: "Vietnam",
-    countryCode: "VNM"
+    countryName: 'Vietnam',
+    countryCode: 'VNM',
   },
   {
-    countryName: "Virgin Islands (U.S.)",
-    countryCode: "VIR"
+    countryName: 'Virgin Islands (U.S.)',
+    countryCode: 'VIR',
   },
   {
-    countryName: "West Bank and Gaza",
-    countryCode: "PSE"
+    countryName: 'West Bank and Gaza',
+    countryCode: 'PSE',
   },
   {
-    countryName: "Yemen, Rep.",
-    countryCode: "YEM"
+    countryName: 'Yemen, Rep.',
+    countryCode: 'YEM',
   },
   {
-    countryName: "Zambia",
-    countryCode: "ZMB"
+    countryName: 'Zambia',
+    countryCode: 'ZMB',
   },
   {
-    countryName: "Zimbabwe",
-    countryCode: "ZWE"
-  }
+    countryName: 'Zimbabwe',
+    countryCode: 'ZWE',
+  },
 ];
