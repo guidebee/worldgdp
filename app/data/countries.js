@@ -1,4 +1,4 @@
-export default   [
+export default [
   {
     countryName: 'Afghanistan',
     countryCode: 'AFG',
@@ -184,7 +184,7 @@ export default   [
     countryCode: 'CRI',
   },
   {
-    countryName: "Cote d'Ivoire",
+    countryName: 'Cote d\'Ivoire',
     countryCode: 'CIV',
   },
   {
