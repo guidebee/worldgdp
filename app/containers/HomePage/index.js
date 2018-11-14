@@ -13,6 +13,7 @@ import WorldGDP from 'data/worldgdp';
 
 import CountryGdp from 'components/CountryGdp';
 import Typography from '@material-ui/core/Typography';
+
 const styles = theme => ({
   root: {
     display: 'flex',
@@ -22,6 +23,10 @@ const styles = theme => ({
     width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  year: {
+    flexGrow: 1,
+    textAlign: 'end',
   },
   gdpDisplay: {
     margin: theme.spacing.unit * 3,
@@ -37,6 +42,7 @@ function getAlpha2(alpha3) {
 
 const MIN_YEAR = 1960;
 const MAX_YEAR = 2016;
+
 /* eslint-disable react/prefer-stateless-function */
 export class HomePage extends React.Component {
   constructor(props) {
@@ -62,7 +68,7 @@ export class HomePage extends React.Component {
   tick = () => {
     this.setState(prevState => {
       let nextYear = prevState.year + 1;
-      if (nextYear > MAX_YEAR) nextYear = MIN_YEAR;
+      if (nextYear > MAX_YEAR) nextYear = MAX_YEAR;
       return {
         year: nextYear,
       };
@@ -80,9 +86,11 @@ export class HomePage extends React.Component {
 
     return (
       <div className={classes.root}>
-        <Typography variant="h1" color="primary">
-          {this.state.year}
-        </Typography>
+        <div className={classes.year}>
+          <Typography variant="h1" color="primary">
+            {this.state.year}
+          </Typography>
+        </div>
         {displayCountries.map((c, index) => {
           const size = c.value / 1000000000000;
           const gdpNumber = Math.round(size * 1000);
@@ -96,8 +104,9 @@ export class HomePage extends React.Component {
               size={size}
               containerStyle={{
                 position: 'absolute',
+                paddingLeft: '10px',
                 top: `${(20 - size) * 40}px`,
-                left: `${index * 6}vw`,
+                left: `${index * 6.5}vw`,
               }}
               gdpNumber={gdpNumber}
             />
