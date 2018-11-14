@@ -85,6 +85,7 @@ export class HomePage extends React.Component {
         </Typography>
         {displayCountries.map((c, index) => {
           const size = c.value / 1000000000000;
+          const gdpNumber = Math.round(size * 1000);
 
           return (
             <CountryGdp
@@ -98,7 +99,7 @@ export class HomePage extends React.Component {
                 top: `${(20 - size) * 40}px`,
                 left: `${index * 6}vw`,
               }}
-              gdpNumber={Math.round(c.value / 1000000000)}
+              gdpNumber={gdpNumber}
             />
           );
         })}
